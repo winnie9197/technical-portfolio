@@ -10,16 +10,13 @@ function App() {
 
       {/* Header */}
       <header className="header">
-        <div className="nav-container">
-          <nav className="nav">
+        <div className="title-container">
+          <nav className="title">
             {/* Logo */}
             <a>
               <img className="logo" src={process.env.PUBLIC_URL+"/images/logo.png"} alt="logo" />
             </a>
-            {/* Hamburger Menu */}
-            <a>
-              <div className="menu"><FontAwesomeIcon icon={faBars}/></div>
-            </a>
+            
           </nav>
         </div>
         
@@ -147,15 +144,20 @@ function App() {
         </div>
       </div>
 
-      {/* Social Links */}
-      <footer className="social-links-container">
-        <a href="https://www.linkedin.com/in/winniehcy/" target="_blank">
+      
+      <footer className="nav-container">
+        {/* Hamburger Menu */}
+        <a>
+          <div className="menu"><FontAwesomeIcon icon={faBars}/></div>
+        </a>
+        {/* Social Links */}
+        <a className="social-link-container" href="https://www.linkedin.com/in/winniehcy/" target="_blank">
           <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="lg"/>
         </a>
-        <a href="https://github.com/winnie9197" target="_blank">
+        <a className="social-link-container" href="https://github.com/winnie9197" target="_blank">
           <FontAwesomeIcon className="icon" icon={faGithubAlt} size="lg"/>
         </a>
-        <a href="https://www.instagram.com/winnie.hc/" target="_blank">
+        <a className="social-link-container" href="https://www.instagram.com/winnie.hc/" target="_blank">
           <FontAwesomeIcon className="icon" icon={faInstagram} size="lg"/>
         </a>
       </footer>  

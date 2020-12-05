@@ -53,11 +53,11 @@ h4 {
   width: 100%;
 }
 
-.nav-container {
+.title-container {
   margin: 0 auto;
 }
 
-.nav {
+.title {
   display: flex;  
   justify-content: space-between;
   padding: 1em 1em;
@@ -67,11 +67,6 @@ h4 {
   max-width: 280px;
 }
 
-.menu {
-  color: #F6B16C;
-  font-size: 2em;
-  padding: .25em .75em;
-}
 
 .author-intro {
   max-width: 280px;
@@ -322,35 +317,43 @@ h4 {
 }
 
 /* Social Links (Footer) */
-.social-links-container {
+.nav-container {
   text-align: center;
   padding: 1em;
   max-width: 80px;
   position: fixed;
-  top: 3em;
+  top: .5em;
   right: 0;
   z-index: 2;
 }
 
-.social-links-container a {
+.nav-container a {
   text-decoration: none;
   display: inline-block;
   width: 2em;
   height: 2em;
-  border-radius: 50%;
   background: transparent;
-  border: 1px dashed#505050 ;
   color:#505050;
   margin: 5px;
   padding: .5em;
 }
 
-.social-links-container a:hover {
+.nav-container a:hover {
   /*background: rgba(255, 255, 255, 0.1);*/
   background: #F6B16C70;
-  color:#F6B16C;
+}
+
+.menu {
+  color: #F6B16C;
+  font-size: 2em;
+}
+
+.social-link-container {
+  border-radius: 50%;
+  border: 1px dashed#505050 ;
 }
 
 .icon {
   margin: .25em;
 }
+
