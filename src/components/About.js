@@ -1,6 +1,6 @@
 const About = () => (
 
-    <div className="about-row margin-top center-padding">
+    <div id="about" className="about-row margin-top center-padding">
         <div className="about-container">
 
             {/* In a Nutshell */}

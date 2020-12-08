@@ -1,6 +1,6 @@
 const Author = () => (
     
-    <div className="author-row">
+    <div id="author" className="author-row">
         <div className="author-container center-padding center-margin">
           {/* Author Title */}
           <div className="author-title-container">

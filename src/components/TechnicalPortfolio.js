@@ -1,6 +1,6 @@
 const TechnicalPortfolio = () => (
 
-    <div className="technical-portfolio">
+    <div id="technical-portfolio" className="technical-portfolio">
         <div className="technical-portfolio-title">
         <h1>Technical Portfolio</h1>
         <hr/>

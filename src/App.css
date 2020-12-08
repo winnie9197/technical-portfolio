@@ -349,7 +349,7 @@ h4 {
 }
 
 .social-link-container {
-  border-radius: 50%;
+  /* border-radius: 50%; */
   border: 1px dashed#505050 ;
 }
 
@@ -357,3 +357,57 @@ h4 {
   margin: .25em;
 }
 
+/* NavBar (Sidebar) */
+.nav-menu-container {
+  background-color: #505050;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  transition: 850ms;
+}
+
+.nav-menu-container.active {
+  right: 0;
+  transition: 350ms;
+}
+
+.nav-menu-container ul {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+}
+
+.menu-item { 
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-item a {
+  width: 100%;
+  color: #F6B16C;
+}
+
+.menu-item a span {
+  margin-left: 16px;
+}
+
+.menu-close {
+  font-size: 2em;
+  background: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  line-height: 1;
+  height: 40px;
+}
+
+.menu-close a:hover {
+  background: none;
+}

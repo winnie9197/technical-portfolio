@@ -1,6 +1,6 @@
 const TechStack = () => (
 
-    <div className="tech-stack-row center-padding">
+    <div id="tech-stack" className="tech-stack-row center-padding">
         <div className="tech-stack-title-container">
           <div className="tech-stack-title">
             <h2>Full Stack</h2>
