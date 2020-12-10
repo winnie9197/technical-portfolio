@@ -12,6 +12,7 @@ body {
 h1 {
   font-size: 3em;
   font-weight: 200;
+  text-shadow: 0px 2px 6px #707070;
 }
 
 h2 {
@@ -29,19 +30,27 @@ h4 {
   font-weight: 200 !important;
 }
 
+a {
+  cursor: pointer;
+}
+
+img {
+  pointer-events: none;
+}
+
 .margin-top {
   /* container margin */
   margin-top: 6em;
 }
 
 .center-margin {
-  /* center horizontally */
-  margin: 0 6em;
+  /* center all sides*/
+  margin: 6em;
 }
 
 .center-padding {
-  /* vertical padding*/
-  padding: 6em 0;
+  /* center padding all sides*/
+  padding: 6em;
 }
 
 .separator {
@@ -67,9 +76,13 @@ h4 {
   max-width: 280px;
 }
 
-
 .author-intro {
   max-width: 280px;
+}
+
+.links {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 .attributes-row {
@@ -78,6 +91,7 @@ h4 {
   border-width: 2px;
   border-color: #808080;
   padding: 0 6em;
+  margin-top: 4em;
 }
 
 .attributes-container {
@@ -94,14 +108,15 @@ h4 {
 
 /* About */
 .about-row {
-  background-color: #8D8D8D;
+  background-color: #eaeaea;
   text-align: left;
   color: #303030;
 }
 
 .about-container {
   margin: 0 auto;
-  max-width: 72em;
+  max-width: 80%;
+  padding: 6em 0;
 }
 
 .about-container h1 {
@@ -110,8 +125,12 @@ h4 {
 }
 
 .about-title {
+  max-width: 40%;
+  min-width: 8em;
+}
+
+.about-title-container {
   margin: 0 auto;
-  max-width: 90%;
 }
 
 .about-text-container {
@@ -131,6 +150,12 @@ h4 {
   /* background-color: #8D8D8D; */
   padding: 6em 0;
 }
+
+.technical-portfolio-container {
+  margin: 0 auto;
+  max-width: 74%;
+}
+
 .technical-portfolio-title {
   color: black;
 }
@@ -144,14 +169,14 @@ h4 {
   grid-auto-flow: row;
   grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   justify-items: center;
-  margin: 2em 10% 0 10%;
+  margin-top: 4em;
 
-  column-gap: 5em;
-  row-gap: 5em;
+  column-gap: 2%;
+  row-gap: 4%;
 }
 
 .technical-portfolio-item {
-  max-width: 20em;
+  max-width: 16em;
 }
 
 /* Additional Info (Author) */
@@ -259,11 +284,12 @@ h4 {
 
 /* Stack */
 .tech-stack-row {
-  background-color: #C9AF98;
+  background-color: #EAEAEA;
 }
 
 .tech-stack-title-container {
-  background-color: #EAE7DC50;
+  background-color: #F48E29;
+  box-shadow: 0 2px 6px #505050;
   padding: 1em;
 
   margin: 0 auto;
@@ -272,7 +298,7 @@ h4 {
 
 .tech-stack-title {
   color: #202020;
-  border-bottom: 1px solid #505050;
+  /* border-bottom: 1px solid #505050; */
 
   line-height: 1.5;
 }
@@ -283,7 +309,7 @@ h4 {
 
 .tech-stack-content {
   padding-top: 2em;
-  font-size: 1.2em;
+  font-size: 1.6em;
 }
 
 /* Contact */
@@ -305,13 +331,12 @@ h4 {
 .contact-text-container {
   margin: 8em auto;
   max-width: 72em;
+  color: black;
 }
 
 .contact-text {
-  text-align: right;
   word-wrap: break-word;
   border-bottom: .75em solid #F6B16C;
-  color: #303030;
   
   margin: 0 10%;
 }
@@ -343,14 +368,19 @@ h4 {
   background: #F6B16C70;
 }
 
+.menu-link {
+  border-radius: 50%;
+  border: 1px dashed transparent;
+}
+
 .menu {
   color: #F6B16C;
   font-size: 2em;
 }
 
 .social-link-container {
-  /* border-radius: 50%; */
-  border: 1px dashed#505050 ;
+  border-radius: 50%;
+  border: 1px dashed#505050;
 }
 
 .icon {

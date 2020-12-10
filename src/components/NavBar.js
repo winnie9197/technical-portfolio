@@ -14,7 +14,7 @@ function NavBar() {
   return (
     <footer className="nav-container">
         {/* Hamburger Menu */}
-        <a onClick={showSidebar}>
+        <a className="menu-link" onClick={showSidebar}>
           <div className="menu"><FontAwesomeIcon icon={faBars}/></div>
         </a>
 

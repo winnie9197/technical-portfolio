@@ -21,7 +21,7 @@ function App() {
       <TechnicalPortfolio />
 
       {/* Additional Info (Author) */}
-      <Author />
+      {/* <Author /> */}
 
       {/* Tech Stack */}
       <TechStack />
