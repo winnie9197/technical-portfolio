@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faHome, faSmileWink, faCameraRetro, faMugHot, faStickyNote, faEnvelopeSquare } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn, faGithubAlt, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import SocialLinks from './SocialLinks';
 
 function NavBar() {
 
@@ -49,15 +49,7 @@ function NavBar() {
         </nav>  
 
         {/* Social Links */}
-        <a className="social-link-container" href="https://www.linkedin.com/in/winniehcy/" target="_blank">
-          <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="lg"/>
-        </a>
-        <a className="social-link-container" href="https://github.com/winnie9197" target="_blank">
-          <FontAwesomeIcon className="icon" icon={faGithubAlt} size="lg"/>
-        </a>
-        <a className="social-link-container" href="https://www.instagram.com/winnie.hc/" target="_blank">
-          <FontAwesomeIcon className="icon" icon={faInstagram} size="lg"/>
-        </a>
+        <SocialLinks />
     </footer>  
   );
 };

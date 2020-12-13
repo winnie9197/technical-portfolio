@@ -48,9 +48,20 @@ img {
   margin: 6em;
 }
 
+.mobile-center-margin {
+  margin: 6em 0;
+}
+
 .center-padding {
   /* center padding all sides*/
   padding: 6em;
+}
+
+.mobile-center-padding {
+  padding: 6em 2em;
+}
+.vertical-padding {
+  padding: 6em 0;
 }
 
 .separator {
@@ -73,11 +84,16 @@ img {
 }
 
 .logo {
+  /* Responsive image */
   max-width: 280px;
+  width: 100%;
+  height: auto;
 }
 
 .author-intro {
   max-width: 280px;
+  width: 100%;
+  height: auto;
 }
 
 .links {
@@ -122,19 +138,16 @@ img {
 .about-container h1 {
   border-bottom: .25em solid #F6B16C;
   line-height: 1.5;
+  margin-top: 0;
 }
 
 .about-title {
-  max-width: 40%;
-  min-width: 8em;
-}
-
-.about-title-container {
-  margin: 0 auto;
+  max-width: 50%;
+  min-width: 16em;
 }
 
 .about-text-container {
-  margin: 0 auto;
+  /* margin: 0 auto; */
   display: flex;
   flex-flow: wrap;
   justify-content: space-evenly;
@@ -142,7 +155,8 @@ img {
 }
 
 .about-text-container p {
-  max-width: 20em;
+  max-width: 50%;
+  min-width: 16em;
 }
 
 /* Technical Portfolio */
@@ -164,19 +178,82 @@ img {
   border-color: #505050;
 }
 
+.technical-portfolio-wrapper {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%
+}
+
 .technical-portfolio-items {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
   grid-auto-flow: row;
-  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
-  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
+  justify-items: start;
+  
+  column-gap: 2%;
+  row-gap: 4%; */
+
   margin-top: 4em;
 
-  column-gap: 2%;
-  row-gap: 4%;
+  background-color: #F6B16C;
 }
 
 .technical-portfolio-item {
-  max-width: 16em;
+  width: 100%;
+  height: auto;
+}
+
+.technical-portfolio-items a:nth-child(3n) {
+  margin-right: 0;
+}
+
+.technical-portfolio-items a:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.technical-portfolio-items a:nth-child(5) {
+  margin-bottom: 0;
+}
+
+.technical-portfolio-items a:nth-child(6) {
+  margin-bottom: 0;
+}
+
+.technical-portfolio-link {
+  flex: 1 0 268px;
+  margin: 0 1em 1em 0;
+  background-color: white
+}
+
+.technical-portfolio-link:hover {  
+  transform: scale(1.01) translateZ(0); 
+  box-shadow: 0 24px 24px rgba(0,0,0,0.11);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .1s ease;
+  background-color:#20202070;
+}
+
+.overlay h4 {
+  color: white;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+.technical-portfolio-link:hover .overlay {
+  opacity: 1;
 }
 
 /* Additional Info (Author) */
@@ -329,7 +406,6 @@ img {
 }
 
 .contact-text-container {
-  margin: 8em auto;
   max-width: 72em;
   color: black;
 }
@@ -440,4 +516,28 @@ img {
 
 .menu-close a:hover {
   background: none;
+}
+
+
+/* Mobile Version */
+
+.mobile-row {
+  background-color: #fff5ea;
+  color:  #505050;
+  height: 100vh;
+}
+
+.mobile-row div {
+  margin-top: 2em;
+}
+
+.mobile-social-links {
+  text-decoration: none;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  background: transparent;
+  color: #505050;
+  margin: 5px;
+  padding: .5em;
 }

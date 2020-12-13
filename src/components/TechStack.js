@@ -1,7 +1,6 @@
-const TechStack = () => (
-
-    <div id="tech-stack" className="tech-stack-row center-padding">
-      <div className="center-margin">
+const TechStack = ({isNotMobile}) => (
+    <div id="tech-stack" className={ isNotMobile ? "tech-stack-row center-padding" : "tech-stack-row mobile-center-padding" }>
+      <div className={ isNotMobile ? "center-margin" : "mobile-center-margin" }>
         <div className="tech-stack-title-container">
           <div className="tech-stack-title">
             <h2>Full Stack</h2>
