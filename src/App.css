@@ -196,7 +196,7 @@ img {
   row-gap: 4%; */
 
   margin-top: 4em;
-
+  height: 563px;
   background-color: #F6B16C;
 }
 
@@ -223,8 +223,10 @@ img {
 
 .technical-portfolio-link {
   flex: 1 0 268px;
+  height: 268px;
   margin: 0 1em 1em 0;
-  background-color: white
+  background-color: white;
+  position: relative;
 }
 
 .technical-portfolio-link:hover {  
@@ -232,7 +234,7 @@ img {
   box-shadow: 0 24px 24px rgba(0,0,0,0.11);
 }
 
-.overlay {
+.box-overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -245,14 +247,14 @@ img {
   background-color:#20202070;
 }
 
-.overlay h4 {
+.box-overlay h4 {
   color: white;
   display: flex; 
   align-items: center;
   justify-content: center;
 }
 
-.technical-portfolio-link:hover .overlay {
+.technical-portfolio-link:hover .box-overlay {
   opacity: 1;
 }
 

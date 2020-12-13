@@ -12,13 +12,13 @@ const TechnicalPortfolio = ({ isNotMobile }) => (
                     <a className="technical-portfolio-link">
                         
                         <img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-1.png"} alt="item1" />
-                        <div className="overlay"><h4>Blockchain Slide Deck</h4></div>
+                        <div className="box-overlay"><h4>Blockchain Slide Deck</h4></div>
                     </a>
-                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-2.png"} alt="item2" /><div className="overlay"><h4>React Fullstack Ecommerce</h4></div></a>
-                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-3.png"} alt="item3" /><div className="overlay"><h4>Machine Learning in Python </h4></div></a>
-                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-4.png"} alt="item4" /><div className="overlay"><h4>Writing Samples</h4></div></a>
-                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-5.png"} alt="item5" /><div className="overlay"><h4>Title</h4></div></a>
-                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-6.png"} alt="item6" /><div className="overlay"><h4>Title</h4></div></a>
+                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-2.png"} alt="item2" /><div className="box-overlay"><h4>React Fullstack Ecommerce</h4></div></a>
+                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-3.png"} alt="item3" /><div className="box-overlay"><h4>Machine Learning in Python </h4></div></a>
+                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-4.png"} alt="item4" /><div className="box-overlay"><h4>Writing Samples</h4></div></a>
+                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-5.png"} alt="item5" /><div className="box-overlay"><h4>Title</h4></div></a>
+                    <a className="technical-portfolio-link"><img className="technical-portfolio-item" src={process.env.PUBLIC_URL+"/images/portfolio-item-6.png"} alt="item6" /><div className="box-overlay"><h4>Title</h4></div></a>
                 </div>
             </div>
         </div>
