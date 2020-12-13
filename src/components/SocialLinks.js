@@ -7,20 +7,20 @@ function SocialLinks({ isNotMobile }) {
 
     return (
         <div className={ isNotMobile ? "" : "mobile-social-links-container"}>
-            <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="https://www.linkedin.com/in/winniehcy/" target="_blank">
+            <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="https://www.linkedin.com/in/winniehcy/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="icon" icon={faLinkedinIn} size="lg"/>
             </a>
-            <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="https://github.com/winnie9197" target="_blank">
+            <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="https://github.com/winnie9197" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="icon" icon={faGithubAlt} size="lg"/>
             </a>
 
             <Device>
-                <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="mailto: winniehcyeung@gmail.com" target="_blank">
+                <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="mailto: winniehcyeung@gmail.com" target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon className="icon" icon={faEnvelopeSquare} size="lg"/>
                 </a>
             </Device>
             
-            <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="https://www.instagram.com/winnie.hc/" target="_blank">
+            <a className={ isNotMobile ? "social-link-container" : "social-link-container mobile-social-links"} href="https://www.instagram.com/winnie.hc/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon className="icon" icon={faInstagram} size="lg"/>
             </a>
         </div>

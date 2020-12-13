@@ -1,7 +1,4 @@
-import { useMediaQuery } from 'react-responsive';
-
 function About ({ isNotMobile }) {
-    const isNotSmallScreen = useMediaQuery({ minWidth: 670 });
 
     return (
         <div id="about" className={ isNotMobile? "about-row margin-top center-padding" : "about-row margin-top mobile-center-padding"}>
@@ -25,9 +22,7 @@ function About ({ isNotMobile }) {
                     <p>
                     
                     {/* Paragraph 2*/}
-                    Translating this to full-stack development, my goal is to create safe, inclusive, comfortable spaces where anyone would feel at home browsing. Websites can be better than just business tools. 
-                    <br/><br/>
-                    Just some blob…
+                    In full-stack development, my goal is to create safe, inclusive, comfortable spaces where anyone would feel at home browsing. Websites can be better than just some ice cold machines. 
                     </p>
                 </div>
             </div>

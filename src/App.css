@@ -30,6 +30,12 @@ h4 {
   font-weight: 200 !important;
 }
 
+h5 {
+  font-size: 1.5em;
+  font-weight: 200 !important;
+}
+
+
 a {
   cursor: pointer;
 }
@@ -160,6 +166,7 @@ img {
 }
 
 /* Technical Portfolio */
+
 .technical-portfolio {
   /* background-color: #8D8D8D; */
   padding: 6em 0;
@@ -234,6 +241,21 @@ img {
   box-shadow: 0 24px 24px rgba(0,0,0,0.11);
 }
 
+.click-disabled {
+  cursor: default;
+}
+
+.technical-portfolio-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .box-overlay {
   position: absolute;
   top: 0;
@@ -247,11 +269,12 @@ img {
   background-color:#20202070;
 }
 
-.box-overlay h4 {
+.box-overlay h5 {
   color: white;
   display: flex; 
   align-items: center;
   justify-content: center;
+  margin: 3em 1.5em 0 1.5em;
 }
 
 .technical-portfolio-link:hover .box-overlay {

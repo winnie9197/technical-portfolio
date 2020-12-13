@@ -36,9 +36,9 @@ function NavBar() {
                 <li className="menu-item">
                     <a href="#technical-portfolio"><FontAwesomeIcon icon={faCameraRetro}/><span>Portfolio</span></a>
                 </li>
-                <li className="menu-item">
+                {/* <li className="menu-item">
                     <a href="#author"><FontAwesomeIcon icon={faMugHot}/><span>Author</span></a>
-                </li>
+                </li> */}
                 <li className="menu-item">
                     <a href="#tech-stack"><FontAwesomeIcon icon={faStickyNote}/><span>Full Stack</span></a>
                 </li>
