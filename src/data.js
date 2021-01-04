@@ -3,7 +3,7 @@ export default
         projects: [
             {
                 id: 1,//DO NOT CHANGE THIS (Please)😅
-                title: 'Contribution to Digital Carbon Footprint Reduction',
+                title: 'Reduce Digital Carbon Footprint ',
                 // service: 'Best Gov Tech Team of 2 at International Blockchain Olympiad \'19',
                 imageSrc: "./images/portfolio-item-1.png",
                 url: 'https://inboxneutral.com/'
