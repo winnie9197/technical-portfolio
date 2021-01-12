@@ -5,6 +5,11 @@
   color: #505050;
 }
 
+html {
+  /* for smooth scrolling, when redirected to different parts of the page via i.e. a button */
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
 }
